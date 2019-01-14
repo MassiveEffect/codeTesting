@@ -87,17 +87,17 @@ mods.avaritia.ExtremeCrafting.addShaped("infinity_boots" ,<avaritia:infinity_boo
   [null, null, null, null, null, null, null, null, null]
 ]);
 
-var avaritia:infinity_chestplate = [<4569>] as IItemStack[<avaritia:infinity_chestplate>];
-var avaritia:resource:5 = [<4560:5>] as IItemStack[<avaritia:resource:5>];
-var avaritia:endest_pearl = [<4573>] as IItemStack[<avaritia:endest_pearl>];
-var avaritia:singularity:13 = [<4561:13>] as IItemStack[<avaritia:singularity:13>];
-var avaritia:singularity:14 = [<4561:14>] as IItemStack[<avaritia:singularity:14>];
-var avaritia:singularity = [<4561:0>] as IItemStack[<avaritia:singularity>];
-var avaritia:block_resource:1 = [<4580:1>] as IItemStack[<avaritia:block_resource:1>];
+//var avaritia:infinity_chestplate = [<4569>] as IItemStack[<avaritia:infinity_chestplate>];
+//var avaritia:resource:5 = [<4560:5>] as IItemStack[<avaritia:resource:5>];
+//ar avaritia:endest_pearl = [<4573>] as IItemStack[<avaritia:endest_pearl>];
+//var avaritia:singularity:13 = [<4561:13>] as IItemStack[<avaritia:singularity:13>];
+//var avaritia:singularity:14 = [<4561:14>] as IItemStack[<avaritia:singularity:14>];
+//var avaritia:singularity = [<4561:0>] as IItemStack[<avaritia:singularity>];
+//var avaritia:block_resource:1 = [<4580:1>] as IItemStack[<avaritia:block_resource:1>];
 
 //Creative_Drum
 recipes.removeShaped(<mods.extrautils2:drum:4>)
-mods.avaritia.ExtremeCrafting.addShaped(<extrautils2:drum:4>, [
+recipes.mods.avaritia.ExtremeCrafting.addShaped(<extrautils2:drum:4>, [
  [<avaritia:block_resource:1>, <avaritia:singularity>, <avaritia:singularity>, <avaritia:singularity>, <avaritia:singularity>, <avaritia:singularity>, <avaritia:singularity>, <avaritia:singularity>, <avaritia:block_resource:1>],
   [<avaritia:block_resource:1>, <avaritia:singularity:14>, <avaritia:singularity:14>, <avaritia:singularity:14>, <avaritia:singularity:14>, <avaritia:singularity:14>, <avaritia:singularity:14>, <avaritia:singularity:14>, <avaritia:block_resource:1>],
   [<avaritia:block_resource:1>, <avaritia:singularity:14>, <avaritia:singularity:13>, <avaritia:endest_pearl>, <avaritia:resource:5>, <avaritia:endest_pearl>, <avaritia:singularity:13>, <avaritia:singularity:14>, <avaritia:block_resource:1>],
